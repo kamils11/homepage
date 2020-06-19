@@ -1,0 +1,65 @@
+.form__labelText
+{
+    width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.form__input
+{
+    border-radius: 40px;
+    width: 100%;
+    max-width: 400px;
+    
+}
+.from__button
+{
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 15px;
+    background-color: rgb(120, 238, 222);;
+
+}
+.from__button:hover
+{
+    background-color: palegoldenrod;
+    cursor: pointer;
+}
+.form__fileset
+{
+    border: 1px solid black;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.712);
+border-radius: 10px;
+}
+.form__legend
+{
+    border: 1px solid black;
+    border-radius: 4px ;
+    background-color: rgb(120, 238, 222);
+    padding: 5px;;
+}
+.form__input:required
+{
+    border-color: cyan;
+}
+.form__input:invalid
+{
+    background-color: rgba(226, 90, 90, 0.438);
+}
+.form__input:valid , .form__input--disabled:valid
+{
+    background-color: rgba(150, 241, 122, 0.527);
+}
+.form__input--disabled{
+    border-radius: 40px;
+    width: 100%;
+    max-width: 400px;
+}
+.form__input--disabled:disabled
+{
+    background-color: grey;
+}
+.form__input:read-only
+{
+   background-color: rgba(182, 192, 186, 0.685);
+}

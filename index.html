@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <form action="">
+            <fieldset class="form__fileset">
+                <legend class="form__legend">Dane Osobowe</legend>
+                <p><label>
+                        <span class="form__labelText"> Imię:</span> <input class="form__input" type="text" autofocus
+                            required>
+                    </label></p>
+
+                <p><label>
+                        <span class="form__labelText">Nazwisko:</span> <input class="form__input" type="text">
+                    </label></p>
+
+                <p><label>
+                        <span class="form__labelText">Element wyłączony:</span> <input class="form__input--disabled" type="text" disabled>
+                    </label></p>
+                         
+                <p><label>
+                    <span class="form__labelText">Tylko do odczytu:</span> <input class="form__input" class="form__input--read" type="text" readonly>
+                </label></p>    
+                <input type="color" class="form__input" >
+                <select name="eyesColor" class="form__input">
+                    <option >zielone</option>
+                    <option >niebieskie</option>
+                    <option >brązowe</option>
+                </select>
+            </fieldset>
+            <button class="from__button">Wyślij</button>
+        </form>
+    </section>
+
+
+</body>
+
+</html>
